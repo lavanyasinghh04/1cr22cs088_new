@@ -1,0 +1,57 @@
+.url-shortener {
+  max-width: 100%;
+}
+
+.card-subtitle {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.form-input.error {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.25);
+}
+
+.url-input-group {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.url-input-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.url-input-group .btn-danger {
+  padding: 8px 12px;
+  font-size: 12px;
+  align-self: end;
+}
+
+.actions {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .url-input-group {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .url-input-group .btn-danger {
+    align-self: stretch;
+  }
+  
+  .actions {
+    flex-direction: column;
+  }
+  
+  .actions .btn {
+    width: 100%;
+  }
+}
